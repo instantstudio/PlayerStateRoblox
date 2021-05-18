@@ -5,7 +5,7 @@
 
 local PlayerState = {}
 
-function CreateFolder(Player)
+local function CreateFolder(Player)
 	local NewTemp = script.Template:Clone()
 	NewTemp.Name = "PlayerState"
 	NewTemp.Parent = Player
